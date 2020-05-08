@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {View, Text, FlatList} from 'react-native';
 
-export default class Indonesia extends Component{
+export default class indonesia extends Component{
     constructor(){
         super();
         this.state = {
@@ -9,8 +9,6 @@ export default class Indonesia extends Component{
             refreshing: false
         }
     }
-
-
     render(){
         return(
             <View style={{flex: 1}}>
@@ -24,13 +22,13 @@ export default class Indonesia extends Component{
                                     <Text>{item.provinsi}</Text>
                                 </View>
                                 <View style={{flexDirection:'row'}}>
-                                    <View style={{height: 25, width: 55, borderRadius: 10, backgroundColor: 'coral', justifyContent: 'center', alignItems: 'center', margin: 5}}>
+                                    <View style={{height: 25, width: 55, borderRadius: 10, backgroundColor: 'lightsalmon', justifyContent: 'center', alignItems: 'center', margin: 5}}>
                                         <Text>{item.kasusPosi}</Text>
                                     </View>
-                                    <View style={{height: 25, width: 55, borderRadius: 10, backgroundColor: 'aquamarinen', justifyContent: 'center', alignItems: 'center', margin: 5}}>
+                                    <View style={{height: 25, width: 55, borderRadius: 10, backgroundColor: 'greenyellow', justifyContent: 'center', alignItems: 'center', margin: 5}}>
                                         <Text>{item.kasusSemb}</Text>
                                     </View>
-                                    <View style={{height: 20, width: 50, borderRadius: 10, backgroundColor: 'darkorange', justifyContent: 'center', alignItems: 'center', margin: 5}}>
+                                    <View style={{height: 25, width: 55, borderRadius: 10, backgroundColor: 'tomato', justifyContent: 'center', alignItems: 'center', margin: 5}}>
                                         <Text>{item.kasusMeni}</Text>
                                     </View>
                                 </View>

@@ -28,15 +28,15 @@ export default class Dunia extends Component {
         return(
             
             <View style={{height: 100, width: 350, flexDirection: 'row', justifyContent: 'space-between'}}>
-                <View style={[styles.box, {backgroundColor: 'gold'}]}>
+                <View style={[styles.box, {backgroundColor: 'lightsalmon'}]}>
                     <Text style={styles.text}>Positif</Text>
                     <Text style={styles.text}>{this.state.positif}</Text>
                 </View>
-                <View style={[styles.box, {backgroundColor: 'skyblue'}]}>
+                <View style={[styles.box, {backgroundColor: 'greenyellow'}]}>
                     <Text style={styles.text}>Sembuh</Text>
                     <Text style={styles.text}>{this.state.sembuh}</Text>
                 </View>
-                <View style={[styles.box, {backgroundColor: 'indianred'}]}>
+                <View style={[styles.box, {backgroundColor: 'tomato'}]}>
                     <Text style={styles.text}>Meninggal</Text>
                     <Text style={styles.text}>{this.state.meninggal}</Text>
                 </View>

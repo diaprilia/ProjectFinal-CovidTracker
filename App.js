@@ -12,6 +12,9 @@ class App extends Component {
         <Dunia />
       <Text style={styles.text}>Indonesia </Text>
         <Indonesia />
+      {/* <ImageBackground source={'./assets/1.jpg'} style={{width: '100%', height: '100%'}}>
+      <Text>Inside</Text>
+    </ImageBackground> */}
       </View>
     )
   }
